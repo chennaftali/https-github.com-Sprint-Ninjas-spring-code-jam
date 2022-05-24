@@ -13,6 +13,7 @@
    column-gap: 40px;
    align-items: center;
    z-index: 1;
+   transition: 0.2s;
    
  }
  
@@ -57,4 +58,25 @@
 .nav__logo:hover {
 	background-image: url(../images/Terryavatar-wink.png);
   outline: 3px solid #55F676;
+}
+@media screen and (max-width: 1130px) {
+ 
+  .nav__links {
+      column-gap: 30px;
+  }
+
+}
+@media screen and (max-width: 788px) {
+ 
+ /* .nav__links {
+    position: absolute;
+    top: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 788px;
+    width: 100%;
+    background:red;
+  }*/
+
 }
