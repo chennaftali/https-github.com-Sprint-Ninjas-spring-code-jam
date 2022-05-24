@@ -38,7 +38,7 @@
 	gap:16px;
 	margin: auto 0 auto 30px;
 }
-.profile__info-title{
+.profile__title{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -46,19 +46,23 @@
 	width:100%;
 
 }
-.profile__info-name {
+.profile__title-top{
+    font-size: 40px;
+}
+.profile__name {
 	margin: 0;
 	text-align: left;
 	font-size: 72px;
     font-weight: 500;
     line-height: 1.14;
-	
 font-family: 'Knewave', cursive;
 	text-shadow: 0 0 2px #000, 3px 3px 0px #0882ff;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
-
-.profile__info-name:hover {
+.profile__title-bottom{
+    font-size: 20px;
+}
+.profile__name:hover {
 	text-shadow: 0 0 2px #000, 3px 3px 0px #55F676;
 }
 
@@ -85,19 +89,14 @@ font-family: 'Knewave', cursive;
 }
 
 
-
-
-
-
-
-.profile-info__item {
+.profile__item {
     display: flex;
     align-items: center;
     margin-bottom: 4px;
     font-weight: 500;
   }
   
-  .profile-info__icon {
+  .profile__icon {
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 12px;
@@ -105,11 +104,11 @@ font-family: 'Knewave', cursive;
     height:24px;
   }
   
-  .profile-info__icon_type_ux {
+  .profile__icon_type_ux {
     background-image: url(../images/icon_ux.svg);
   }
   
-  .profile-info__icon_type_pin {
+  .profile__icon_type_pin {
     background-image: url(../images/icon_pin.svg);
   }
   .profile-info__text {
@@ -125,6 +124,7 @@ font-family: 'Knewave', cursive;
     position: absolute;
     top: 135px;
     right: 80px;
+    transition:0.2s;
  } 
  .profile__hero-image-eyes{
 	position: absolute;
@@ -150,12 +150,29 @@ font-family: 'Knewave', cursive;
 	color:black;
 	box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
  }
-@media screen and (max-width: 792px) {
-
+@media screen and (max-width: 1130px) {
+   /*.profile__info{
+        align-items: center;
+        flex-direction: column;
+    }
+    .profile__tile{
+        align-items: center;
+    }*/
+    .profile__name {
+        font-size: 52px;
+    }
+.profile__hero-image{
+    opacity:0;
+}
+.profile__hero-image-eyes{
+   display:none
+}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width:788px) {
 
-	
+	.profile__name {
+        font-size: 52px;
+    }
 	
 }
