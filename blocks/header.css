@@ -71,7 +71,7 @@
 
   .header__floating_icon { 
     animation-name: floating;
-    animation-duration: 1.6s;
+    animation-duration: 2.6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
