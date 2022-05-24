@@ -6,12 +6,12 @@ SPRINT NINJAS
 
 
 I experimented with something.
-I was thinking we can go all out and emulate a real profile instead of a normal website layout. 
+I was thinking we can go all out and emulate a real profile instead of a normal website layout, 
 but we will still keep it simple.
 - [https://sprint-ninjas.github.io/spring-code-jam/](https://sprint-ninjas.github.io/spring-code-jam/)
 
 
-Where the menu you is I was thinking to put a gellery tab, that switches the content when we click it.
+Where the menu is I was thinking we can put a tab, that switches some kind of gallery content when we click it.
 
 Hove over the profile image you'll see a surprise.
 
