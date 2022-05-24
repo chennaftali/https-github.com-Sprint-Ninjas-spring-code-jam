@@ -1,0 +1,13 @@
+.footer {
+  box-sizing: border-box;
+  background-color: #000;
+  padding:60px 102px 60px 80px;
+  
+
+}
+
+
+.footer__copyright {
+  color:#fff;
+  margin: 0;
+}
