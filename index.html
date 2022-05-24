@@ -7,81 +7,82 @@
     <meta name="description" content="A portfolio landling page for Terry" />
     <meta name="keywords" content="HTML, CSS, JS, Portfolio, Terry, Tegegne " />
     <meta name="author" content="Chen, Maria_K, Kerwin" />
-    <title>Terry
-    </title>
+    <title>Terry </title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body class="body">
     <div class="page">
-      
       <header class="header">
-            <img src="./images/terry-logo.png" alt="Homeland" class="header__logo" />
-      </header>
-      <section class="profile">
-        <div class="profile__box">
+        <nav class="nav">
+          <img src="./images/terry-logo.png" alt="" class="logo">
+          <ul class="nav__links">
+            <li>
+              <a href="#staff-picks" class="nav__link">About Me </a>
+            </li>
+            <li>
+              <a href="#events" class="nav__link">Hobbies </a>
+            </li>
+            <li>
+              <a href="#become-a-member" class="nav__link">Portfolio </a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">About </a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav__link">Contact Me </a>
+            </li>
+          </ul>
+        </nav>
+        <section class="profile">
+          <div class="profile__box">
             <div class="profile__image"></div>
             <!--<img  src="./images/Terryavatar.png" alt="" />-->
-            <div class="profile__edit-column">
-              <div class="profile__edit">
-                <h1 class="profile__edit-name">Terrence Shlomo Tegegne
-                </h1>
-              </div>
-              <div>
-                <div class="profile-info__item">
-                  <div class="profile-info__icon profile-info__icon_type_pin">
-                  </div>
-                  <p class="profile-info__text"> Quincy, Massachusetts
-                  </p>
-                </div>
+            <div class="profile__info">
+              <div class="profile__info-title">
+                <p>Hi! I'm </p>
+                <h1 class="profile__info-name">Terrence Tegegne </h1>
+                <p>But you can call me Terry</p>
               </div>
             </div>
+          </div>
+        </section>
+        <div class="header__footer">
+          <span href="#about" class="header__link header__floating_icon">About Me ↓</span>
+          </a>
+          <div>
+            <div class="profile-info__item">
+              <div class="profile-info__icon profile-info__icon_type_ux"></div>
+              <p class="profile-info__text"> Freelance UX Designer </p>
+            </div>
+            <div class="profile-info__item">
+              <div class="profile-info__icon profile-info__icon_type_pin"></div>
+              <p class="profile-info__text"> Quincy, Massachusetts </p>
+            </div>
+          </div>
+        </div>
+        <div class="header__circle" </div>
+      </header>
+      <main class="main"></main>
+      <section class="dotted">
+        <div class="dotted__wrapper">
+          <div class="animated">
+            <img src="images/star_1.svg" alt="svg star" class="star star_size_s">
+            <img src="images/star_2.svg" alt="svg star" class="star star_size_m">
+            <img src="images/star_3.svg" alt="svg star" class="star star_size_l">
+            <img src="images/dots_1.svg" alt="svg dots" class="dots dots_size_s">
+            <img src="images/dots_2.svg" alt="svg dots" class="dots dots_size_m">
+            <img src="images/dots_3.svg" alt="svg dots" class="dots dots_size_l">
+          </div>
         </div>
       </section>
-      <nav class="nav"> 
-        <ul class="nav__links">
-          <li> 
-            <a href="#menu" class="nav__link">About
-            </a> 
-          </li>
-          <li> 
-            <a href="#recipes" class="nav__link">Hobbies
-            </a> 
-          </li>
-          <li> 
-            <a href="#reservations" class="nav__link">Skills
-            </a> 
-          </li>
-          <li> 
-            <a href="#" class="nav__link">Contact Me
-            </a> 
-          </li>
-        </ul>
-      </nav>
-      <main class="main">
-        
-      </main>
-    <section class="dotted">
-      <div class="dotted__wrapper">
-        <div class="animated">
-          <img src="images/star_1.svg" alt="svg star" class="star star_size_s">
-          <img src="images/star_2.svg" alt="svg star" class="star star_size_m">
-          <img src="images/star_3.svg" alt="svg star" class="star star_size_l">
-          <img src="images/dots_1.svg" alt="svg dots" class="dots dots_size_s">
-          <img src="images/dots_2.svg" alt="svg dots" class="dots dots_size_m">
-          <img src="images/dots_3.svg" alt="svg dots" class="dots dots_size_l">
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <p class="footer__copyright">© 2022 Sprint Ninjas | Chen Naftali - Maria_K - Kerwin Thompson
-      </p>
-    </footer>
+      <footer class="footer">
+        <p class="footer__copyright">© 2022 Sprint Ninjas | Chen Naftali - Maria_K - Kerwin Thompson </p>
+      </footer>
     </div>
-  <script src="./scripts/index.js">
-  </script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
