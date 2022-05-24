@@ -1,7 +1,89 @@
-.header{
-    display:flex
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 10px); }
+  100%   { transform: translate(0, -0px); }   
 }
 
-.header__logo{
-    margin:auto;
+.header {
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  
+  
+  .header__title {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 500;
+    margin: 150px 0 0;
+    max-width: 544px;
+  }
+  
+  .header__description {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 32px 0 0;
+    max-width: 465px;
+  }
+  
+  .header__image {
+    max-width: 636px;
+    position: absolute;
+    top:135px;
+    right:20px;
+    z-index: -1;
+  }
+  
+  .header__footer {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 0;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .header__link {
+    color: #0882ff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .header__link:hover {
+    color: #55F676;
+  }
+  
+  .header__address {
+    margin: 0;
+    color: #838383;
+  }
+
+  .header__floating_icon { 
+    animation-name: floating;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+.header__circle {
+  background-color: #0882ff;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  right: -91px;
+  z-index: 0;
+}
+ 
+
