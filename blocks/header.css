@@ -5,12 +5,11 @@
 }
 
 .header {
-    height: 100vh;
-    min-height: 720px;
-    max-height: 800px;
+    /*height: 100vh;*/
+    /*min-height: 720px;*/
     padding-top: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     box-sizing: border-box;
     background-color: #fff;
@@ -43,13 +42,10 @@
   }
   
   .header__footer {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 40px 80px 0;
+    padding: 40px 0 40px;
     justify-content: space-between;
     box-sizing: border-box;
   }
@@ -85,5 +81,20 @@
   right: -91px;
   z-index: 0;
 }
- 
+@media screen and (max-width:970px) {
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
+  .header__footer {
+    
+    justify-content: center;
+    margin-top:40px;
+}
+
+
+
+}
+
+}
