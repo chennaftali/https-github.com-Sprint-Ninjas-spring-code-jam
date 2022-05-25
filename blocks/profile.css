@@ -90,7 +90,6 @@ font-family: 'Knewave', cursive;
 .profile__item {
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
     font-weight: 500;
   }
   
@@ -132,17 +131,21 @@ font-family: 'Knewave', cursive;
     width: 54px;
 	opacity:0;
  }
-
+ .profile__text {
+    margin: 10px;
+}
+.profile__buttons{
+    margin-top:20px;
+}
  .profile__button{
-	padding: 16px;
-    min-width: 150px;
+	padding: 16px 36px;
     margin-bottom:20px;
     border-radius: 28px;
-    border: none;
     background: #0882FF;
     color: #fff;
     cursor: pointer;
     transition: 0.6s;
+    text-decoration: none;
  }
  .profile__button:hover{
     background: #55F676;
@@ -184,10 +187,4 @@ display:none;
     }
     
 
-}
-@media screen and (max-width: 427px) {
-    .profile__button{
-        width:100%;
-    }
-    
 }

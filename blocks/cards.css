@@ -3,8 +3,9 @@
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     list-style: none;
-    width: 80%;
+    width: 90%;
     margin: 0;
+    padding: 0;
 }
 .cards__icons {
     margin: 0;
@@ -83,3 +84,11 @@
   .cards__technology + .cards__technology {
     margin-left: 20px;
   }
+  @media screen and (max-width: 1077px) {
+   
+    .cards__title{
+         font-size:28px;
+      }
+      
+    
+    }

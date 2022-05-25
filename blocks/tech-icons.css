@@ -5,6 +5,7 @@
   width: 100%;
   min-height: 250px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .tech-icons__title {
@@ -23,8 +24,10 @@
   align-items: center;
   justify-content: center;
   list-style: none;
+  gap: 20px;
   margin: 0;
   padding: 0;
+
 }
 
 .tech-icons__list-item {

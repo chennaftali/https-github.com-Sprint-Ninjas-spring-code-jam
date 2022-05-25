@@ -3,13 +3,14 @@
   color: #fff;
   margin: 0 auto;
   box-sizing: border-box;
+  padding:40px 0;
 }
 
 .about__content-grid {
   display: grid;
   gap: 30px;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 90%;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -23,7 +24,6 @@
   font-weight: 500;
   line-height: 1.14;
   text-align: center;
-  padding-top: 40px;
   margin: 0;
 }
 .about__line-break{
@@ -64,4 +64,11 @@
   cursor: pointer;
 }
 
-/* Media Queries */
+@media screen and (max-width: 505px) {
+   
+.about__content-grid{
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+
+}
