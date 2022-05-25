@@ -20,8 +20,8 @@
 }
 
 .about__main-title {
-  font-size: 48px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: bold;
   line-height: 1.14;
   text-align: center;
   margin: 0;
@@ -31,6 +31,7 @@
 }
 .about__text {
   font-size: 18px;
+  line-height: 25px;
 }
 
 .about__text:last-of-type {
@@ -39,13 +40,15 @@
 
 .about__list-item {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .about__title {
-  font-size: 20px;
-  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
   font-style: italic;
+  color: #000000;
+  
 }
 
 .about__image-books {
@@ -60,10 +63,19 @@
 
 .about__image-books:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px #000000;
+  box-shadow: 0 0 10px 2px rgb(0 0 0 / 80%);
   cursor: pointer;
 }
-
+@media screen and (max-width: 922px) {
+   
+ .about__image-books {
+  width: 88%;
+  margin: 56px auto;
+  border-radius: 24px;
+}
+    
+  
+  }
 @media screen and (max-width: 505px) {
    
 .about__content-grid{

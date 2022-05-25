@@ -1,0 +1,22 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+  }
+  
+  .icon-image {
+    width: 100px;
+    transition:0.3s;
+  }
+  .icon-image:hover {
+    transform: translate(0, -5px);
+  }
+  
+  
+  .icon-image__caption {
+    font-size: 18px;
+  }
+  

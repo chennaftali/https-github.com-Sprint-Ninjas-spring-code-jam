@@ -12,8 +12,8 @@
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="stylesheet" href="./pages/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
@@ -24,7 +24,7 @@
         <div class="nav__logo"></div>
         <ul class="nav__links">
           <li>
-            <a href="#about-me" class="nav__link">About Me </a>
+            <a href="#about" class="nav__link">About</a>
           </li>
           <li>
             <a href="#hobbies" class="nav__link">Hobbies </a>
@@ -32,11 +32,7 @@
           <li>
             <a href="#portfolio" class="nav__link">Projects </a>
           </li>
-          <li>
-            <a href="#about" class="nav__link">About </a>
-          </li>
-          <li>
-            <a href="#contact-me" class="nav__link">Contact Me </a>
+            <a href="#contact" class="nav__link">Contact</a>
           </li>
         </ul>
         <img class="nav__menu" src="images/menu-close.svg" alt="">
@@ -59,9 +55,7 @@
                 <p class="profile__text"> Quincy, Massachusetts </p>
               </div>
             </div>
-            <div>
-            <div class="profile__buttons"><a href="portfolio" class="profile__button profile__button_portfolio">Projects</a> <a href="contact-me"
-              class="profile__button profile__button_hire">Hire</a></div>  
+            <div> 
               
             </div>
           </div>
@@ -76,12 +70,12 @@
     </header>
     <main class="main">
       <!--About Section -->
-      <section id="about-me" class="about">
-        <h3 class="about__main-title">About me</h3>
+      <section id="about" class="about">
+        <h2 class="about__main-title">About me</h2>
 
         <div class="about__content-grid">
           <div class="about__content-wrapper">
-            <h4 class="about__title">My Background</h4>
+            <h3 class="about__title">My Background</h3>
             <p class="about__text">I grew up in an area of greater Boston. I've made few attempts to become a
               programmer and even
               tried out different online courses and bootcamps but never succeeded.</p>
@@ -90,7 +84,7 @@
               She helped me a lot to overcome my fears and gain more confidence. So
               now I am really excited to continue my Web Development learning path with Practicum.
             </p>
-            <h4 class="about__title">My Hobbies</h4>
+            <h3 id="hobbies" class="about__title">My Hobbies</h3>
             <ul class="about__list">
               <li class="about__list-item">love podcasts on history and politics</li>
               <li class="about__list-item">read science-fiction books</li>
@@ -106,13 +100,14 @@
 
       <!-- Tech-icons Section -->
       <section class="tech-icons">
-        <h3 class="tech-icons__title">Technical Skills</h3>
+        <h2 class="tech-icons__title">Technical Skills</h2>
         <ul class="tech-icons__list">
-          <li class="tech-icons__list-item"></li>
-          <div class="icon">
-            <img class="icon-image" src="./images/icons8-html-5.svg" alt="html icon">
-            <span class="icon-image__caption">HTML5</span>
-          </div>
+          <li class="tech-icons__list-item">
+            <div class="icon">
+              <img class="icon-image" src="./images/icons8-html-5.svg" alt="html icon">
+              <span class="icon-image__caption">HTML5</span>
+            </div>
+          </li>
           <li class="tech-icons__list-item">
             <div class="icon">
               <img class="icon-image" src="./images/icons8-css3.svg" alt="css icon">
@@ -156,12 +151,9 @@
                 <img class="cards__icon" src="images/external-link.svg" alt="external link">
               </a>
             </div>
-            <h2 class="cards__title">Page for podcast</h2>
+            <h3 class="cards__title">Podcast Page</h3>
             <p class="cards__description">
-              An online page for the podcast, the user
-              Can log in and listen to all previously recorded podcasts,
-              See link to new episodes and share news and
-              Photos
+              A podcast website where users can log in and listen to all previously recorded podcasts. Click the link to watch new episodes, listen to news, and see photos.
             </p>
             <ul class="cards__technologies-list">
               <li class="cards__technology">React</li>
@@ -176,11 +168,9 @@
                 <img class="cards__icon" src="images/external-link.svg" alt="external link">
               </a>
             </div>
-            <h2 class="cards__title">Page for a gardening club</h2>
+            <h3 class="cards__title">Gardening Club Page</h3>
             <p class="cards__description">
-              A landing page that uses the forms to sign up and join the club
-              to share gardening tips and competition
-              announcements. There is also a gallery on the web page
+              A landing page that uses forms to sign up and join the club in order to share gardening tips and competition announcements. The website also includes a gallery.
             </p>
             <ul class="cards__technologies-list">
               <li class="cards__technology">JS</li>
@@ -195,13 +185,9 @@
                 <img class="cards__icon" src="images/external-link.svg" alt="external link">
               </a>
             </div>
-            <h2 class="cards__title">Page for a volunteer organization</h2>
+            <h3 class="cards__title">Volunteer Organization Page</h3>
             <p class="cards__description">
-              An online podcast site was created for a volunteer organization.
-              The page includes a description of
-              Organization, contact details, event schedule and gallery
-              For all events. The user receives details
-              Information on each event, as well as links to charities.
+              For a volunteer organization, an online podcast site was created.The page includes a description of the organization, contact information, an event schedule, and a gallery of all events. The user is given detailed information about each event, as well as links to charitable organizations.
             </p>
             <ul class="cards__technologies-list">
               <li class="cards__technology">JS</li>
@@ -210,9 +196,10 @@
           </li>
         </ul>
       </section>
-      <section class="contact" id="contact">
+      <section id="contact" class="contact" id="contact">
           <div class="contact__wrapper">
-            <h2 class="contact__title">Leave a message and we will get back to you!</h2>
+            <h2 class="contact__title">Leave a message. <span class="contact__subtitle">I will get back to you!</span></h2>
+            
             <form class="form" action="" method="get">
               <div class="form__email">
                 <span class="form__email-icon"></span>

@@ -47,9 +47,10 @@
 .profile__name {
 	margin: 0;
 	font-size: 52px;
+    line-height: 1;
     font-weight: 500;
     line-height: 1.14;
-font-family: 'Knewave', cursive;
+    font-family: 'Concert One', cursive;
 	text-shadow: 0 0 2px #000, 3px 3px 0px #0882ff;
     transition: all 0.2s ease-in;
 }

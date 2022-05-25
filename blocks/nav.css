@@ -25,7 +25,7 @@
    
  }
  .nav__link:hover {
-   color: #55F676;
+   color: #0882ff;
  }
 
  .nav__link::after {
@@ -33,7 +33,7 @@
   display: block;
   width: 0;
   height: 1px;
-  background: #55F676;
+  background: #0882ff;
   transition: width .3s;
 }
 

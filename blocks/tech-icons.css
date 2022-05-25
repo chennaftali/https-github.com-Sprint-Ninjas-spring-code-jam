@@ -9,13 +9,12 @@
 }
 
 .tech-icons__title {
-  font-size: 42px;
-  font-weight: 500;
+  padding: 0px 0 46px;
+  font-size: 40px;
+  font-weight: bold;
   line-height: 1.14;
   text-align: center;
-  padding-top: 40px;
   margin: 0;
-  padding: 0 0 30px;
 }
 
 .tech-icons__list {
@@ -37,19 +36,3 @@
   margin: 0;
 }
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-right: 20px;
-}
-
-.icon-image {
-  width: 100px;
-}
-
-.icon-image__caption {
-  font-size: 18px;
-}
