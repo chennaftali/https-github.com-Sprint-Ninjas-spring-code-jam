@@ -2,16 +2,12 @@
 @import url("../blocks/nav.css");
 @import url("../blocks/main.css");
 @import url("../blocks/page.css");
-@import url("../blocks/cards.css");
 @import url("../blocks/header.css");
 @import url("../blocks/profile.css");
-@import url("../blocks/profile.css");
+@import url("../blocks/about.css");
+@import url("../blocks/cards.css");
+@import url("../blocks/portfolio.css");
 @import url("../blocks/dotted-stars.css");
 @import url("../blocks/footer.css");
-<<<<<<< HEAD
-@import url("../blocks/popup.css");
-@import url("../blocks/about.css");
-=======
-
-@import url("../blocks/portfolio.css");
->>>>>>> main
+@import url("../blocks/float.css");
+@import url("../blocks/grow.css");

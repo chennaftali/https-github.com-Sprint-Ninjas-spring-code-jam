@@ -1,14 +1,17 @@
 .footer {
   box-sizing: border-box;
-  background-color: #000;
+  background-color: #0882FF;
   padding:20px;
   
 
 }
 .footer__box{
-  display:flex;
-  align-items: center;
-    justify-content: space-around;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer__copyright {
@@ -17,22 +20,49 @@
 }
 
 .footer__image {
-  width: 100px;
-  height:100px;
-	/*width: 220px;
-    height:170px;*/
-	border-radius:50%;
+	width: 220px;
+    height:170px;
 	background-image: url(../images/Terryavatar.png);
-    background-color: #FFFFFF;
+    background-color: #ffffff00;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 	transition:0.1s;
 	border-radius: 50%;
-  border: 1px solid #fff;
 	
 }
 .footer__image:hover {
 	background-image: url(../images/Terryavatar-wink.png);
-  outline: 3px solid #55F676;
+}
+.footer-nav{
+  display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.footer__list {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.footer-nav__item {
+  margin: 0;
+  padding: 0;
+}
+.footer-nav__link {
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  border-radius: 50px;
+  transition: all 0.3s ease-in;
+}
+.footer-nav__icon {
+  height: 40px;
 }
