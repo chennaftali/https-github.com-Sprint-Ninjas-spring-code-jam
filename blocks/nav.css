@@ -59,6 +59,10 @@
 	background-image: url(../images/Terryavatar-wink.png);
   outline: 3px solid #55F676;
 }
+.nav__menu{
+  display:none;
+  width:36px;
+}
 @media screen and (max-width: 1130px) {
  
   .nav__links {
@@ -68,15 +72,23 @@
 }
 @media screen and (max-width: 788px) {
  
- /* .nav__links {
+  .nav__links {
     position: absolute;
-    top: 150px;
+    top: 125px;
+    left:0;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
     max-width: 788px;
     width: 100%;
-    background:red;
-  }*/
+    background:#fff;
+    padding: 20px 40px 40px;
+    box-sizing: border-box;
+    border-bottom:2px solid #0882FF;
+    display: none;
+  }
+  .nav__menu{
+    display:block;
+  }
 
 }
