@@ -3,23 +3,19 @@
   color: #fff;
   margin: 0 auto;
   box-sizing: border-box;
-  max-width: 1280px;
-  max-height: 680px;
 }
 
 .about__content-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, minmax(150px, auto));
-
   gap: 30px;
   margin: 0 auto;
   max-width: 80%;
   width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .about__content-wrapper {
-  grid-area: 1;
+  padding-right: 30px
 }
 
 .about__main-title {
@@ -30,7 +26,9 @@
   padding-top: 40px;
   margin: 0;
 }
-
+.about__line-break{
+  display:block
+}
 .about__text {
   font-size: 18px;
 }
@@ -51,15 +49,13 @@
 }
 
 .about__image-books {
-  max-width: 350px;
-  border-radius: 10%;
-  transition: all 0.2s ease-in-out;
-  transition: transform 0.2s;
-  margin-left: 50px;
-  object-fit: cover;
-  align-self: center;
-  margin-bottom: 30px;
-  grid-area: 1;
+     border-radius: 50px;
+     transition: all 0.2s ease-in-out;
+     transition: transform 0.2s;
+     object-fit: cover;
+     align-self: center;
+     margin-bottom: 30px;
+     width: 100%;
 }
 
 .about__image-books:hover {
