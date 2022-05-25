@@ -42,23 +42,20 @@
 .nav__logo {
   width: 100px;
   height:100px;
-	/*width: 220px;
-    height:170px;*/
-	border-radius:50%;
-	background-image: url(../images/Terryavatar.png);
-    background-color: #FFFFFF;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-	transition:0.1s;
-	border-radius: 50%;
-  border: 1px solid #fff;
+	background-image: url(../images/terry-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+	transition: transform 0.5s  ease-out;
+  color:transparent;
 	
 }
 .nav__logo:hover {
-	background-image: url(../images/Terryavatar-wink.png);
-  outline: 3px solid #55F676;
+	background-image: url(../images/terry-logo-hover.png);
+  transform: rotate(-360deg); 
 }
+
+
 .nav__menu{
   display:none;
   width:36px;

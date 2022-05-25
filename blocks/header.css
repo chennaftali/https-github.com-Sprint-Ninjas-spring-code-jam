@@ -1,8 +1,4 @@
-@keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 10px); }
-  100%   { transform: translate(0, -0px); }   
-}
+
 
 .header {
     /*height: 100vh;*/
@@ -65,12 +61,7 @@
     color: #838383;
   }
 
-  .header__floating_icon { 
-    animation-name: floating;
-    animation-duration: 2.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
+
 .header__circle {
   background-color: #0882ff;
   width: 495px;
@@ -97,4 +88,3 @@
 
 }
 
-}
