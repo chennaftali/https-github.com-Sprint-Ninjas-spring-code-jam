@@ -1,0 +1,16 @@
+.portfolio {
+    margin: 0;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0882ff;
+    color: #fff;
+}
+.portfolio__title {
+    margin: 0;
+    padding: 0 0 50px;
+    font-size: 48px;
+    line-height: 1.5;
+}
