@@ -4,8 +4,12 @@
 @import url("../blocks/main.css");
 @import url("../blocks/org-page.css");
 @import url("../blocks/org-header.css");
-@import url("../blocks/hero.css");
-@import url("../blocks/gallery.css");
+@import url("../blocks/org-hero.css");
+@import url("../blocks/org-planner.css");
+@import url("../blocks/org-events.css");
+@import url("../blocks/org-card.css");
+@import url("../blocks/org-links.css");
+@import url("../blocks/org-gallery.css");
 @import url("../blocks/org-footer.css");
 @import url("../blocks/org-contact.css");
 @import url("../blocks/org-form.css");

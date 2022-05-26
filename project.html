@@ -24,9 +24,6 @@
             <div class="nav__logo"></div>
             <ul class="nav__links">
               <li class="nav_list-item">
-                <a href="#about" class="nav__link">About</a>
-              </li>
-              <li class="nav_list-item">
                 <a href="#gallery" class="nav__link">Gallery</a>
               </li>
               <li class="nav_list-item">
@@ -44,11 +41,74 @@
                 <p class="hero__list-item">Make a difference</p>
                 <p class="hero__list-item">while changing the world</p>
             </div>
-            <a href="#" class="hero__button" target="_blank">Register</a>
+            
         </div>
     </section>
     </header>
     <main class="main">
+      <section id="events" class="planner-block">
+        <section class="planner">
+            <div class="planner__dashboard">
+                <div class="links">
+                    <div class="link">
+                        <img class="link__image" src="./images/days.png" alt="calendar icon">
+                        <button class="link__title">Events 2022</button>
+                    </div>
+                    <div class="link">
+                        <img class="link__image" src="./images/days.png" alt="calendar icon">
+                        <button class="link__title">Events 2021</button>
+                    </div>
+                    <div class="link">
+                        <img class="link__image" src="./images/chat.png" alt="chat icon">
+                        <button class="link__title">Forum</button>
+                    </div>
+                    <div class="link">
+                        <img class="link__image" src="./images/qa.png" alt="q&a icon">
+                        <button class="link__title">Q&A</button>
+                    </div>
+                </div>
+
+                <section class="events">
+                    <div class="upcoming events">
+                        <h2 class="events__header">Upcoming Events</h2>
+                    </div>
+
+                    <div class="card__group">
+                        <div class="card">
+                            <div class="card__info">
+                                <h2 class="card__title">Spring Cleaning</h2>
+                                <div class="details">
+                                    <a class="card__link">Clinton, New York</a>
+                                    <img class="location__icon" src="./images/icon_pin.svg" alt="location icon">
+                                </div>
+                                <p class="card__text">10:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__info">
+                                <h2 class="card__title">Children's Fair</h2>
+                                <div class="details">
+                                    <a class="card__link">Beverly Woods, Chicago </a>
+                                    <img class="location__icon" src="./images/icon_pin.svg" alt="location icon">
+                                </div>
+                                <p class="card__text">11:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__info">
+                                <h2 class="card__title">Animal Shelter</h2>
+                                <div class="card__details">
+                                    <a class="card__link">Ocoee, Florida</a>
+                                    <img class="card__location-icon" src="./images/icon_pin.svg" alt="location icon">
+                                </div>
+                                <p class="card__text">19:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </section>
+    </section>
+    <!-- Event Planner Section -->
       <section id="gallery" class="gallery">
         <ul class="gallery__tabs">
           <li class="gallery__list active" data-filter="all">All</li>
@@ -98,9 +158,9 @@
         </div>
       </section>
 
-      <section id="contact" class="contact" id="contact">
+      <section id="register" class="contact" id="contact">
         <div class="contact__wrapper">
-          <h2 class="contact__title">Leave details. <span class="contact__subtitle">I will contact you!</span></h2>
+          <h2 class="contact__title">Registration<span class="contact__subtitle">I will contact you!</span></h2>
       <form class="form" action="" method="get">
         <div class="form__email">
           <span class="form__email-icon"></span>
@@ -160,7 +220,7 @@
       </p>
     </footer>
   </div>
-  <script src="./scripts/index.js">
+  <script src="./scripts/project.js">
   </script>
 </body>
 

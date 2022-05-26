@@ -23,12 +23,15 @@
  
  .nav__link {
    color: #fff;
+   border-radius:10px;
    text-decoration: none;
   
    
  }
  .nav_list-item:hover {
-   background-color: #00c455;
+   background-color: #55f676;
+   border-radius:20px;
+   color:#000;
  }
 
 .nav__logo {

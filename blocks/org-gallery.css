@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f0fbf3;
 }
 .gallery__tabs{
     display: flex;
@@ -25,13 +24,15 @@
     cursor: pointer;
     padding: 16px;
     border: none;
-    background: #00c455;
+    background: #000;
     color: #fff;
     cursor: pointer;
     transition: 0.6s;
+    border-radius: 20px;
 }
 .gallery__list:hover{
-    background: #000;
+    background: #55f676;
+    color: #000;
 }
 .gallery__list_active{
     color: #000;
