@@ -3,7 +3,7 @@
 - [Team Members](#team-members)
 - [Spring Code Jam - About the Project](#spring-code-jam-challenge---about-the-project)
 - [Features of the Landing Pages](#features-of-the-landing-pages)
-- [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-frontend-development)
+- [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
 - [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
   - [!Javascript](#)
 - [Future Improvements](#future-improvements)
@@ -32,7 +32,6 @@ This project consists of two parts - a landing page for a UX designer storytelli
 **There are various tools that have been used throughout the project design and development:**
 | Tools | Usage |
 |---------------------------------------------------|---------------------------------------------------|
-| Figma | For referring to the product design specification |
 | [TinyPng](https://tinypng.com/) | For JPEG/PNG Image Compression |
 | [Photopae](https://www.photopea.com/) | For editing and refining images |
 | [Autoprefixer](https://autoprefixer.github.io/) | For parsing CSS and adds vendor prefixes |
