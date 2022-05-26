@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,28 +41,73 @@
         </ul>
         <img class="nav__menu" src="images/menu-close.svg" alt="">
       </nav>
-      
+
     </header>
     <main class="main">
       <section class="gallery">
         <ul class="gallery__tabs">
-            <li class="gallery__list active" data-filter="all">All</li>
-            <li class="gallery__list" data-filter="community">Community</li>
-            <li class="gallery__list" data-filter="food">Food bank</li>
-            <li class="gallery__list" data-filter="relief">Disaster Relief</li>
+          <li class="gallery__list active" data-filter="all">All</li>
+          <li class="gallery__list" data-filter="community">Community</li>
+          <li class="gallery__list" data-filter="food">Food bank</li>
+          <li class="gallery__list" data-filter="relief">Disaster Relief</li>
         </ul>
         <div class="gallery__images">
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="./images/gallery-images/community1.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief2.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community2.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food4.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief1.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food3.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community3.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food2.jpg"><p class="gallery__text">Hidden Text</p></div>
-            
+          <div class="gallery__item" data-item="community"><img class="gallery__image"
+              src="./images/gallery-images/community1.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="relief"><img class="gallery__image"
+              src="images/gallery-images/relief2.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="community"><img class="gallery__image"
+              src="images/gallery-images/community2.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food4.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="relief"><img class="gallery__image"
+              src="images/gallery-images/relief1.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food3.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="community"><img class="gallery__image"
+              src="images/gallery-images/community3.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+          <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food2.jpg">
+            <p class="gallery__text">Hidden Text</p>
+          </div>
+
         </div>
-    </section>
+      </section>
+
+      <section id="contact" class="contact" id="contact">
+        <div class="contact__wrapper">
+          <h2 class="contact__title">Leave details. <span class="contact__subtitle">I will contact you!</span></h2>
+      <form class="form" action="" method="get">
+        <div class="form__email">
+          <span class="form__email-icon"></span>
+          <input class="form__input" maxlength="40" name="name" size="20" type="text" placeholder="Enter your name" required="">
+          <input class="form__input" type="email" name="email" placeholder="Enter your email" required="">
+          <input class="form__input" maxlength="30" name="mobile" size="20" type="text" placeholder="Phone number" required="">
+        </div>
+        <textarea class="form__textarea" name="message" placeholder="Write your message" minlength="5" required=""></textarea>
+        <div class="form__btns">
+          <button type="reset" class="form__btn form__btn_type_reset">
+            Reset
+          </button>
+          <button type="submit" class="form__btn form__btn_type_submit">
+            Sumbit
+          </button>
+        </div>
+      </form>
+      </section>
+
+
     </main>
     <footer class="footer">
       <nav class="footer__nav">
@@ -102,3 +148,5 @@
 </body>
 
 </html>
+
+
