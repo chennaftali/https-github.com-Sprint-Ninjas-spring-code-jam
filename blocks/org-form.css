@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #55F676;
 }
 .form__email {
     margin: 0 0 20px;
@@ -19,17 +20,17 @@
     margin: 0;
     padding: 0 10px;
     display: block;
-    background-color: #0882ff;
+    background-color: #55F676;
     border-radius: 5px 0 0 5px;
 }
-.form__email-icon::before {
+/*.form__email-icon::before {
     content: "\2709";
     position: relative;
     top: 17px;
     height: 100%;
     font-size: 50px;
     color: #fff;
-  }
+  }*/
   .form__input{
     box-sizing: border-box;
     width: 100%;
@@ -52,7 +53,7 @@
   }
   
   .form__input:valid {
-    border: 2px solid #0882ff;
+    border: 2px solid #55F676;
   }
   .form__textarea:focus {
     background-color: #fff;
@@ -77,7 +78,7 @@
   }
   
   .form__textarea:valid {
-    border: 2px solid #0882ff;
+    border: 2px solid #55F676;
   }
   .form__btns {
     margin: 0;
@@ -93,7 +94,7 @@
     font-size: 24px;
     line-height: 1.2;
     background-color: #fff;
-    border: 2px solid #08ffa0;
+    border: 2px solid #55F676;
     border-radius: 20px;
     transition: all 0.3s linear;
   }
@@ -108,15 +109,13 @@
   
   .form__btn:hover,
   .form__btn:focus {
-    box-shadow: inset 0 0 0 150px #08ffa0;
+    box-shadow: inset 0 0 0 150px #55F676;
     color: #fff;
   }
 
 
 @media screen and (max-width: 766px) {
-  .form__email::before{
-    display:none;
-  }
+
   .form__btns {
     justify-content: center;
     gap: 5px;

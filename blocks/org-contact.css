@@ -4,6 +4,8 @@
     padding: 0;
     min-height: 500px;
     width: 100%;
+    background-color: #55F676;
+
 }
 .contact__wrapper {
     box-sizing: border-box;
@@ -28,12 +30,4 @@
 .contact__subtitle {
     font-size: 18px;
     display: block;
-}
-@media screen and (max-width: 766px) {
-    .contact__title {
-        width: 100%;
- }
- .contact__wrapper {
-     width:90%;
- }
 }
