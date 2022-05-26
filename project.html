@@ -8,42 +8,48 @@
   <meta name="keywords" content="Volunteer Organization" />
   <meta name="author" content="Chen, Maria_K, Kerwin" />
   <title>Terry </title>
-  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./org-favicon.ico" />
   <link rel="stylesheet" href="./pages/project.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
   <div class="page">
-
     <header class="header">
-      <nav class="nav">
-        <div class="nav__logo"></div>
-        <ul class="nav__links">
-          <li>
-            <a href="#about-me" class="nav__link">About Me </a>
-          </li>
-          <li>
-            <a href="#hobbies" class="nav__link">Hobbies </a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav__link">Projects </a>
-          </li>
-          <li>
-            <a href="#about" class="nav__link">About </a>
-          </li>
-          <li>
-            <a href="#contact-me" class="nav__link">Contact Me </a>
-          </li>
-        </ul>
-        <img class="nav__menu" src="images/menu-close.svg" alt="">
-      </nav>
-      
+        
+        <section class="hero">
+          <nav class="nav">
+            <div class="nav__logo"></div>
+            <ul class="nav__links">
+              <li class="nav_list-item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav_list-item">
+                <a href="#gallery" class="nav__link">Gallery</a>
+              </li>
+              <li class="nav_list-item">
+                <a href="#events" class="nav__link">Events</a>
+              </li>
+              <li class="nav_list-item">
+                <a href="#register" class="nav__link">Register</a>
+              </li>
+            </ul>
+            <img class="nav__menu" src="images/the-spring-cleaning-project/menu-close-white.svg" alt="">
+          </nav>
+        <div class="hero__item">
+            <h1 class="hero__title">The Spring Cleaning Project</h1>
+            <div class="hero__subtitle">
+                <p class="hero__list-item">Make a difference</p>
+                <p class="hero__list-item">while changing the world</p>
+            </div>
+            <a href="#" class="hero__button" target="_blank">Register</a>
+        </div>
+    </section>
     </header>
     <main class="main">
-      <section class="gallery">
+      <section id="gallery" class="gallery">
         <ul class="gallery__tabs">
             <li class="gallery__list active" data-filter="all">All</li>
             <li class="gallery__list" data-filter="community">Community</li>
@@ -51,50 +57,83 @@
             <li class="gallery__list" data-filter="relief">Disaster Relief</li>
         </ul>
         <div class="gallery__images">
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="./images/gallery-images/community1.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief2.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community2.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food4.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief1.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food3.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community3.jpg"><p class="gallery__text">Hidden Text</p></div>
-            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food2.jpg"><p class="gallery__text">Hidden Text</p></div>
+            <div class="gallery__item" data-item="community">
+              <img class="gallery__image" src="./images/gallery-images/community1.jpg">
+              <p class="gallery__text-title">Working Together</p>
+              <div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Clinton, New York </p>
+              </div>
+            
+            </div>
+            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief2.jpg"><p class="gallery__text-title">Benevolence</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Beverly Woods, Chicago </p>
+              </div></div>
+            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community2.jpg"><p class="gallery__text-title">Lasting Friendships</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Boston, New York </p>
+              </div></div>
+            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food4.jpg"><p class="gallery__text-title">Compassion</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Charlotte, North Carolina </p>
+              </div></div>
+            <div class="gallery__item" data-item="relief"><img class="gallery__image" src="images/gallery-images/relief1.jpg"><p class="gallery__text-title">Prosperity</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Orlando, Florida </p>
+              </div></div>
+            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food3.jpg"><p class="gallery__text-title">Selflessness</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Jefferson Avenue, Detroit </p>
+              </div></div>
+            <div class="gallery__item" data-item="community"><img class="gallery__image" src="images/gallery-images/community3.jpg"><p class="gallery__text-title">Team Work</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Ocoee, Florida </p>
+              </div></div>
+            <div class="gallery__item" data-item="food"><img class="gallery__image" src="images/gallery-images/food2.jpg"><p class="gallery__text-title">Kindness</p><div class="gallery__location">
+                <img class="gallery__icon" src="../images/the-spring-cleaning-project/icon_pin.png" alt="" >
+                <p class="gallery__place-name"> Blue Ridge, Texas </p>
+              </div></div>
             
         </div>
     </section>
     </main>
     <footer class="footer">
-      <nav class="footer__nav">
-        <ul class="footer__list">
-          <li class="footer-nav__item">
-            <a class="footer-nav__link" href="https://github.com/" target="_blank"><img class="footer-nav__icon grow"
-                src="./images/social-icons/github-white.png" alt=""></a>
-          </li>
-          <li class="footer-nav__item">
-            <a class="footer-nav__link" href="https://stackoverflow.com/" target="_blank"><img
-                class="footer-nav__icon grow" src="./images/social-icons/stack-overflow.png" alt=""></a>
-          </li>
-          <li class="footer-nav__item">
-            <a class="footer-nav__link" href="https://facebook.com/" target="_blank"><img class="footer-nav__icon grow"
-                src="./images/social-icons/facebook.png" alt=""></a>
-          </li>
-
-          <li class="footer-nav__item">
-            <a class="footer-nav__link" href="https://twitter.com/" target="_blank"><img class="footer-nav__icon grow"
-                src="./images/social-icons/twitter.png" alt=""></a>
-          </li>
-          <li class="footer-nav__item">
-            <a class="footer-nav__link" href="https://www.linkedin.com/" target="_blank"><img
-                class="footer-nav__icon grow" src="./images/social-icons/linkedin.png"></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer__box">
-        <div class="footer__image"></div>
-        <p class="footer__copyright">© 2022 Sprint Ninjas | Chen Naftali - Maria_K - Kerwin Thompson
-        </p>
+      <div class="footer__columns">
+        <div class="footer__column"> 
+          <img src="./images/the-spring-cleaning-project/logo.png" alt="Practicum Library Logo" class="footer__logo"> 
+        </div>
+        <div class="footer__column footer__column_content_hours">
+          <h4 class="footer__column-heading">Hours
+          </h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              Mon - Wed: 9am - 3pm
+            </li>
+            <li class="footer__list-item">
+              Thu - Fri: 7am -1pm
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h4 class="footer__column-heading">Social media
+          </h4>
+          <ul class="footer__list footer__column_list_social">
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-link">
+                <img src="./images/social-icons/facebook.png" alt="Facebook" class="footer__social-icon">Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-link">
+                <img src="./images/social-icons/instagram.png" alt="Instagram" class="footer__social-icon">Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
+      <p class="footer__copyright">© 2022 Sprint Ninjas | Chen Naftali - Maria_K - Kerwin Thompson
+      </p>
     </footer>
   </div>
   <script src="./scripts/index.js">

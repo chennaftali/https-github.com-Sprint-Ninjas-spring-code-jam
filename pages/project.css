@@ -1,7 +1,9 @@
 @import url("../vendor/normalize.css");
-@import url("../blocks/nav.css");
+@import url("../blocks/org-nav.css");
+@import url("../blocks/org-body.css");
 @import url("../blocks/main.css");
-@import url("../blocks/page.css");
-@import url("../blocks/header.css");
+@import url("../blocks/org-page.css");
+@import url("../blocks/org-header.css");
+@import url("../blocks/hero.css");
 @import url("../blocks/gallery.css");
-@import url("../blocks/footer.css");
+@import url("../blocks/org-footer.css");

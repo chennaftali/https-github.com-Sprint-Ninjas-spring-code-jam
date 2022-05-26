@@ -1,10 +1,12 @@
 .profile{
-    min-height:600px;
+    min-height: 600px;
     display: grid;
     flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(487px, 1fr));
     transition: 0.3s;
-    padding-bottom: 40px
+    padding: 0 0 40px 0;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .profile__box {
@@ -13,8 +15,6 @@
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
-	/*max-width: 880px;*/
-	max-width: 1080px;
 	width: 100%;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
@@ -32,7 +32,7 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	gap:16px;
-	margin: auto 0 auto 30px;
+	margin: auto 0;
 }
 .profile__title{
 	display: -webkit-box;
@@ -43,20 +43,23 @@
 }
 .profile__title-intro{
     font-size: 40px;
+    font-size: 40px;
+    margin: 0;
+    line-height: 55px;
 }
 .profile__name {
     display:block;
 	margin: 0;
 	font-size: 52px;
-    line-height: 1;
+    line-height: 58px;
     font-weight: 500;
-    line-height: 1.14;
     font-family: 'Concert One', cursive;
 	text-shadow: 0 0 2px #000, 3px 3px 0px #0882ff;
     transition: all 0.2s ease-in;
 }
 .profile__title-ps{
-    font-size: 20px;
+    font-size: 18px;
+    line height:18px
 }
 .profile__name:hover {
 	text-shadow: 0 0 2px #000, 3px 3px 0px #55F676;
@@ -80,10 +83,7 @@
 }
 .profile__image:hover {
 	background-image: url(../images/Terryavatar-wink.png);
-	
-	/*box-shadow: 0px 0px 3px 6px #55f676;*/
 }
-
 
 .profile__item {
     display: flex;
@@ -115,21 +115,23 @@
 	  position:relative;
   }
  .profile__hero-image{
-	max-width: 636px;
+	max-width: 576px;
     position: absolute;
-    top: 53px;
+    top: 49px;
     right: 0px;
-    transition:0.2s;
+    transition: 0.1s;
  } 
  .profile__hero-image-eyes{
-	position: absolute;
-    top: 97px;
-    right: 418px;
+    position: absolute;
+    top: 88px;
+    right: 378px;
     z-index: 2;
-    width: 54px;
-	opacity:0;
+    width: 49px;
+    opacity: 0;
  }
  .profile__text {
+    font-size: 18px;
+    line-height: 18px; 
     margin: 10px;
 }
 .profile__buttons{
@@ -170,6 +172,7 @@
 .profile__hero-image {
     position:relative;
     width: 100%;
+    top:2px;
 }
 .profile__hero-image-eyes{
 display:none;
