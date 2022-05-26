@@ -20,7 +20,7 @@
 This project consists of two parts - a landing page for a UX designer storytelling character, the other for project that they built for an fictitious volunteer organization.
 
 <img src="#" width=300>
-<img src="# width=300>
+<img src="#" width=300>
 
 ## Features of the Landing Pages
 
