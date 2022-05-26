@@ -25,7 +25,7 @@ This project consists of two parts - a landing page for a UX designer storytelli
 ## Features of the Landing Pages
 
 1. Responsive web design
-2. Subtle hover effects when the user hovers over selective elements
+2. When the user hovers over specific elements, subtle hover effects appear
 
 ## Technologies and Standards Used in UI/UX
 
