@@ -19,8 +19,8 @@
 
 This project consists of two parts - a landing page for a UX designer storytelling character, the other for project that they built for an fictitious volunteer organization.
 
-<img src="#" width=300>
-<img src="#" width=300>
+<img src="https://github.com/Sprint-Ninjas/spring-code-jam/blob/main/images/Terry.png?raw=true" width=300>
+<img src="https://github.com/Sprint-Ninjas/spring-code-jam/blob/main/images/Volunteer-project.png?raw=true" width=300>
 
 ## Features of the Landing Pages
 
