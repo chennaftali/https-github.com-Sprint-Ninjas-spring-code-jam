@@ -11,7 +11,7 @@
 
 ## Team Members
 
-1. [Maria_K](https://github.com/#) | Software Engineer
+1. [Maria_K](https://github.com/MariaKonstantinov) | Software Engineer
 2. [Chen Naftali](https://github.com/#) | Software Engineer
 3. [Kerwin Thompson](https://github.com/Kerwindows) | Software Engineer
 
