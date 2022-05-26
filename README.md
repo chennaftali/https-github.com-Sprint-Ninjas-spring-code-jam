@@ -17,7 +17,7 @@
 
 ## Spring Code Jam Challenge - About the Project
 
-This project consists of two parts - a landing page for a UX designer storytelling character, the other for project that they built for an fictitious volunteer organization.
+This project consists of two parts - a landing page for a UX designer storytelling character, the other page is for the project that was built for an fictitious volunteer organization. To view the volunteer organization project page, simply click the link icon at the top right corner of the volunteer project card in Projects section on the first page.
 
 <img src="https://github.com/Sprint-Ninjas/spring-code-jam/blob/main/images/Terry.png?raw=true" width=300>
 <img src="https://github.com/Sprint-Ninjas/spring-code-jam/blob/main/images/Volunteer-project.png?raw=true" width=300>
