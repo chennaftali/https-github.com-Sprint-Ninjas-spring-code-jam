@@ -2,7 +2,7 @@
 
 - [Team Members](#team-members)
 - [Spring Code Jam - About the Project](#spring-code-jam---about-the-app)
-- [Features of the App](#features-of-the-app)
+- [Features of the Landing Pages](#features-of-the-landing-pages)
 - [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
 - [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
   - [!Javascript](#)
@@ -19,10 +19,10 @@
 
 This project consists of two parts - a landing page for a UX designer storytelling character, the other for project that they built for an fictitious volunteer organization.
 
-<img src="https://raw.githubusercontent.com/5hraddha/misc/master/images/index_page.png" width=300>
-<img src="https://raw.githubusercontent.com/5hraddha/misc/master/images/about_page.png" width=300>
+<img src="#" width=300>
+<img src="# width=300>
 
-## Features of the App
+## Features of the Landing Pages
 
 1. Responsive web design
 2. Subtle hover effects when the user hovers over selective elements
