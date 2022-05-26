@@ -1,6 +1,5 @@
 .planner-block {
   min-height: 100vh;
-  background: linear-gradient(to right top, #55f676, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
