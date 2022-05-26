@@ -1,7 +1,7 @@
 # Spring Code Jam | Team - SPRINT NINJAS
 
 - [Team Members](#team-members)
-- [Spring Code Jam - About the Project](#spring-code-jam---about-the-app)
+- [Spring Code Jam - About the Project](#spring-code-jam-about-the-app)
 - [Features of the Landing Pages](#features-of-the-landing-pages)
 - [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
 - [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
