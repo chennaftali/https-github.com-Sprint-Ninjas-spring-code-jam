@@ -2,7 +2,6 @@
 @import url("../blocks/org-nav.css");
 @import url("../blocks/org-body.css");
 @import url("../blocks/main.css");
-<<<<<<< HEAD
 @import url("../blocks/org-page.css");
 @import url("../blocks/org-header.css");
 @import url("../blocks/org-hero.css");
@@ -12,12 +11,5 @@
 @import url("../blocks/org-links.css");
 @import url("../blocks/org-gallery.css");
 @import url("../blocks/org-footer.css");
-=======
-@import url("../blocks/page.css");
-@import url("../blocks/header.css");
-@import url("../blocks/gallery.css");
-@import url("../blocks/footer.css");
-@import url("../blocks/org-planner.css");
->>>>>>> 63cf199d464a1e3f7c15e56b12ce974491ed8b10
 @import url("../blocks/org-contact.css");
 @import url("../blocks/org-form.css");
