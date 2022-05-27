@@ -12,7 +12,7 @@
 ## Team Members
 
 1. [Maria_K](https://github.com/MariaKonstantinov) | Software Engineer
-2. [Chen Naftali](https://github.com/#) | Software Engineer
+2. [Chen Naftali](https://github.com/chennaftali) | Software Engineer
 3. [Kerwin Thompson](https://github.com/Kerwindows) | Software Engineer
 
 ## Spring Code Jam Challenge - About the Project
